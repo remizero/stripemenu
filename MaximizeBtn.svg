@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg3822"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="MaximizeBtn.svg">
+  <defs
+     id="defs3816" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.75390625"
+     inkscape:cx="36.303211"
+     inkscape:cy="148.28703"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="971"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3819">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-161.53332)"
+     sodipodi:insensitive="true">
+    <path
+       style="stroke-width:0.22135076"
+       inkscape:connector-curvature="0"
+       d="M 67.733333,161.53332 C 30.327711,161.53332 5.8333332e-7,191.86103 5.8333332e-7,229.26665 5.8333332e-7,266.67228 30.327711,296.99999 67.733333,296.99999 c 37.405627,0 67.733337,-30.32771 67.733337,-67.73334 0,-37.40562 -30.32771,-67.73333 -67.733337,-67.73333 z m 0,122.76667 c -30.344533,0 -55.033332,-24.6888 -55.033332,-55.03334 0,-30.34453 24.688799,-55.03333 55.033332,-55.03333 30.344534,0 55.033337,24.6888 55.033337,55.03333 0,30.34454 -24.688803,55.03334 -55.033337,55.03334 z"
+       id="path2"
+       sodipodi:nodetypes="ssssssssss" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Capa 2">
+    <path
+       style="stroke-width:0.38064578"
+       d="M 42.333333,33.866666 101.6,93.133333 V 33.866666 Z"
+       id="rect3830"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Capa 2 copia"
+     id="g3867"
+     inkscape:groupmode="layer">
+    <path
+       inkscape:connector-curvature="0"
+       id="path3863"
+       d="M 93.133334,101.6 33.866667,42.333333 V 101.6 Z"
+       style="stroke-width:0.38064578" />
+  </g>
+</svg>

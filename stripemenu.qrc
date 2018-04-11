@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>RibbonUp.svg</file>
+        <file>RibbonPoint.svg</file>
+        <file>QRibbonDetails.svg</file>
+        <file>test.svg</file>
+        <file>MoreOptions.svg</file>
+        <file>CloseBtn.svg</file>
+        <file>MaximizeBtn.svg</file>
+        <file>MinimizeBtn.svg</file>
+        <file>RestoreBtn.svg</file>
+    </qresource>
+</RCC>
