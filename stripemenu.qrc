@@ -9,5 +9,6 @@
         <file>MaximizeBtn.svg</file>
         <file>MinimizeBtn.svg</file>
         <file>RestoreBtn.svg</file>
+        <file>StripeMenu.qss</file>
     </qresource>
 </RCC>

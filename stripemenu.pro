@@ -25,25 +25,27 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 HEADERS = \
-    MainWindow.h \
-    StripeMenu.h \
-    StripeMenuActionMenuBtn.h \
-    StripeMenuPanel.h \
-    StripeMenuTab.h \
-    StripeMenuCornerActionsContainer.h \
-    StripeMenuItemLayout.h
+  MainWindow.h \
+  StripeMenu.h \
+  StripeMenuActionMenuBtn.h \
+  StripeMenuPanel.h \
+  StripeMenuTab.h \
+  StripeMenuCornerActionsContainer.h \
+  StripeMenuItemLayout.h
 
 SOURCES = \
   main.cpp \
-    MainWindow.cpp \
-    StripeMenuCornerActionsContainer.cpp \
-    StripeMenu.cpp \
-    StripeMenuActionMenuBtn.cpp \
-    StripeMenuPanel.cpp \
-    StripeMenuTab.cpp \
-    StripeMenuItemLayout.cpp
+  MainWindow.cpp \
+  StripeMenuCornerActionsContainer.cpp \
+  StripeMenu.cpp \
+  StripeMenuActionMenuBtn.cpp \
+  StripeMenuPanel.cpp \
+  StripeMenuTab.cpp \
+  StripeMenuItemLayout.cpp
 
 RESOURCES += \
     stripemenu.qrc
 
 FORMS +=
+
+DISTFILES +=

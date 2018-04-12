@@ -5,6 +5,17 @@
 
 StripeMenu::StripeMenu ( QWidget *parent ) : QTabWidget ( parent ) {
 
+  QString css;
+  QFile file ( ":/icons/StripeMenu.qss" );
+  if ( file.open ( QIODevice::ReadOnly ) ) {
+
+    css = file.readAll ();
+    file.close ();
+  }
+
+    //return css
+  this->setStyleSheet ( css );
+
   this->cornerActionsContainer = new StripeMenuCornerActionsContainer ( this );
   this->setCornerWidget ( this->cornerActionsContainer, Qt::TopRightCorner );
 
