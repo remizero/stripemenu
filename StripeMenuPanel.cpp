@@ -10,11 +10,10 @@ StripeMenuPanel::StripeMenuPanel ( QString title, bool panelSettings, QWidget *p
   // http://doc.qt.io/qt-5/stylesheet-customizing.html
   // http://doc.qt.io/qt-5/stylesheet-examples.html
   // http://doc.qt.io/qt-5/stylesheet.html
-  // http://developers-club.com/posts/48963/
 
   this->panelSettings = panelSettings;
   this->setObjectName ( title.toLower ().replace ( " ", "" ) );
-  this->setStyleSheet ( "StripeMenuPanel { border-right: 1px solid red; border-left: 1px solid red; }" );
+  //this->setStyleSheet ( "StripeMenuPanel { border-right: 1px solid red; border-left: 1px solid red; }" );
   #ifdef Q_OS_WIN
     this->setMaximumHeight ( 83 );
     this->setMinimumHeight ( 83 );
@@ -109,7 +108,7 @@ void StripeMenuPanel::createTitlePanel ( QString title ) {
   this->titlePanel = new QWidget ( this );
   this->titlePanel->setObjectName ( title.toLower ().replace ( " ", "" ) + "Pnl" );
   this->titlePanel->setMaximumHeight ( 16 );
-  this->titlePanel->setStyleSheet ( "QWidget#" + this->titlePanel->objectName () + " { border-top: 1px solid red; border-bottom: 1px solid red; }" );
+  //this->titlePanel->setStyleSheet ( "QWidget#" + this->titlePanel->objectName () + " { border-top: 1px solid red; border-bottom: 1px solid red; }" );
   this->titlePanelLayout = new QHBoxLayout ( this->titlePanel );
   this->titlePanelLayout->setContentsMargins ( 0, 0, 0, 0 );
   this->titlePanelLayout->setSpacing ( 0 );
@@ -118,7 +117,7 @@ void StripeMenuPanel::createTitlePanel ( QString title ) {
   this->titleLbl->setAlignment ( Qt::AlignCenter );
   this->titleLbl->setMaximumHeight ( 16 );
   this->titleLbl->setSizePolicy ( QSizePolicy::Expanding, QSizePolicy::Fixed );
-  this->titleLbl->setStyleSheet ( "font-size: 10px; padding-top: 2px; padding-bottom: 2px; padding-left: 10px; padding-right: 10px;" );
+  //this->titleLbl->setStyleSheet ( "font-size: 10px; padding-top: 2px; padding-bottom: 2px; padding-left: 10px; padding-right: 10px;" );
   this->titlePanelLayout->addWidget ( this->titleLbl );
   if ( this->panelSettings ) {
 
